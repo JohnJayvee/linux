@@ -5,28 +5,28 @@
 #
 mainmenu "Linux/$(ARCH) $(KERNELVERSION) Kernel Configuration"
 
-source "scripts/Kconfig.include"
+source "scripts/config.include"
 
-source "init/Kconfig"
+source "init/config"
 
-source "kernel/Kconfig.freezer"
+source "kernel/config.freezer"
 
-source "fs/Kconfig.binfmt"
+source "fs/config.binfmt"
 
-source "mm/Kconfig"
+source "mm/config"
 
-source "net/Kconfig"
+source "net/config"
 
-source "drivers/Kconfig"
+source "drivers/config"
 
-source "fs/Kconfig"
+source "fs/config"
 
-source "security/Kconfig"
+source "security/config"
 
-source "crypto/Kconfig"
+source "crypto/config"
 
-source "lib/Kconfig"
+source "lib/config"
 
-source "lib/Kconfig.debug"
+source "lib/config.debug"
 
-source "Documentation/Kconfig"
+source "Documentation/config"
